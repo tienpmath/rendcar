@@ -53,7 +53,7 @@ const HomePage = async (props: IProps) => {
       next: { tags: ['list-blog-posts'] },
     },
   });
-  console.log(resNews?.data?.results);
+  // console.log(resNews?.data?.results);
   return (
     <>
       <HeroBanner />
@@ -64,8 +64,8 @@ const HomePage = async (props: IProps) => {
 
       <PromotionalBlock />
       <NewBoats
-        datas={resNews?.data?.results ?? []}
-        metas={resNews?.data?.meta}
+        blogs={resNews?.data?.results ?? []}
+        meta={resNews?.data?.meta}
       />
       <TestimonialBlock />
       <SubscriptionBlock sectionClassName="4xl:!px-16" />

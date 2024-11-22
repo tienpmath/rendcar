@@ -29,10 +29,11 @@ export default function Footer({ className }: { className?: string }) {
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="/" className="flex items-center">
+            <Link href="/" className="flex items-center">
+              {' '}
               <Image src="/logo.png" alt="alt" width={150} height={100} />
-              <br />
-            </a>{' '}
+            </Link>
+
             <h3 className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Du Lịch Thành Trung ĐÀ LẠT
             </h3>
@@ -44,26 +45,25 @@ export default function Footer({ className }: { className?: string }) {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="tel:02633575579" className="hover:underline">
+                  <Link href="tel:02633575579" className="hover:underline">
                     Điện thoại: 02633 575 579
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://zalo.me/0918638068"
-                    className="hover:underline"
-                  >
+                  <Link href="https://zalo.me/0918638068">
+                    {' '}
                     Zalo: 0918 638 068
-                  </a>
+                  </Link>
                 </li>
                 <br />
                 <li>
-                  <a
+                  <Link
                     href="mail:Trungthanhdalattravel@gmail.com"
                     className="hover:underline"
                   >
+                    {' '}
                     Email: Trungthanhdalattravel@gmail.com
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -74,14 +74,10 @@ export default function Footer({ className }: { className?: string }) {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Bảng giá thuê xe Đà Lạt
-                  </a>
+                  <Link href="#">Bảng giá thuê xe Đà Lạt</Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
-                    Chính sách - Điều khoản
-                  </a>
+                  <Link href="#"> Chính sách - Điều khoản</Link>
                 </li>
               </ul>
             </div>
@@ -94,7 +90,7 @@ export default function Footer({ className }: { className?: string }) {
             nghiệp, giá cạnh tranh nhất tại thành phố Đà Lạt.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
-            <a
+            <Link
               href="#"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
@@ -112,10 +108,10 @@ export default function Footer({ className }: { className?: string }) {
                 />
               </svg>
               <span className="sr-only">Facebook page</span>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
                 className="w-4 h-4"
@@ -127,10 +123,10 @@ export default function Footer({ className }: { className?: string }) {
                 <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
               </svg>
               <span className="sr-only">Discord community</span>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
                 className="w-4 h-4"
@@ -146,10 +142,10 @@ export default function Footer({ className }: { className?: string }) {
                 />
               </svg>
               <span className="sr-only">Twitter page</span>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
                 className="w-4 h-4"
@@ -165,10 +161,10 @@ export default function Footer({ className }: { className?: string }) {
                 />
               </svg>
               <span className="sr-only">GitHub account</span>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
                 className="w-4 h-4"
@@ -184,7 +180,7 @@ export default function Footer({ className }: { className?: string }) {
                 />
               </svg>
               <span className="sr-only">Dribbble account</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -194,14 +190,14 @@ export default function Footer({ className }: { className?: string }) {
           <div className="order-2 pt-4 md:order-none md:pt-0 lg:shrink-0">
             <p className="text-center text-sm font-normal capitalize leading-6 text-gray-dark md:text-left 3xl:text-base">
               Copyright &copy; {new Date().getFullYear()}{' '}
-              <a
-                href="/"
+              <Link
+                href="#"
                 rel="noreferrer noopener"
                 target="_blank"
                 className="font-semibold hover:underline"
               >
                 Công ty Cổ Phần Du Lịch Trung Thành Đà Lạt
-              </a>{' '}
+              </Link>
               All rights reserved
             </p>
           </div>

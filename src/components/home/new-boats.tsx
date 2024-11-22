@@ -48,7 +48,7 @@ const NewBoats = (props: IProps) => {
       rightElement={<SeeMore />}
     >
       {!state && <ListingCardLoader />}
-      {state && <NewBoatsGrid data={props.datas} />}
+      {state && <NewBoatsGrid data={blogs} />}
     </Section>
   );
 };

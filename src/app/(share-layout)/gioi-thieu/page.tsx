@@ -34,15 +34,19 @@ const AboutPage = () => {
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4 mt-8">
-            <img
-              className="w-full rounded-lg"
+            <Image
               src="/images/banner/Gp1.jpg"
-              alt="office content 1"
+              alt="alt"
+              width={100}
+              height={100}
+              className="w-full rounded-lg"
             />
-            <img
-              className="mt-4 w-full lg:mt-10 rounded-lg"
+            <Image
               src="/images/banner/GP2.jpg"
-              alt="office content 2"
+              alt="alt"
+              width={100}
+              height={100}
+              className="mt-4 w-full lg:mt-10 rounded-lg"
             />
           </div>
         </div>
