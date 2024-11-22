@@ -7,13 +7,10 @@ import { Routes } from '@/config/routes';
 export default function SeeMore({ className }: { className?: string }) {
   return (
     <Link
-      href="#"
-      className={clsx(
-        'inline-block whitespace-nowrap pr-4 text-sm font-bold leading-6 text-gray-light underline sm:pr-6 md:text-base lg:pr-0',
-        className,
-      )}
+      href="tel:0918638068"
+      className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
     >
-      Zalo: 0944838788
+      0918 638 068
     </Link>
   );
 }

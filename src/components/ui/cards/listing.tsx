@@ -86,11 +86,9 @@ export default function ListingCard({
         </div>
         <Link href="#">
           <div className="content pt-3">
-            <div className="mb-1 flex items-center gap-5">
-              <span className="relative flex items-center font-bold text-gray-dark before:absolute before:-right-3 before:block before:h-1 before:w-1 before:rounded-full before:bg-gray-dark"></span>
-              <span className="font-bold">dfg</span>
-            </div>
-            <h4 className="text-ellipsis text-gray-dark 2xl:mb-1.5">{title}</h4>
+            <h2 className="text-ellipsis text-gray-dark 2xl:mb-1.5 font-bold">
+              {title}
+            </h2>
             <p className="mb-3 text-gray-light xl:mb-3">Đưa đón tại Đà Lạt</p>
             <div className="flex flex-wrap items-center justify-between gap-3">
               <p className="text-gray-light">

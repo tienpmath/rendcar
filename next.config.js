@@ -16,6 +16,6 @@ const nextConfig = {
 module.exports = nextConfig;
 module.exports = {
   images: {
-    domains: ['localhost', 'dalattodaytravel.com', '11.jpg'],
+    domains: ['localhost', 'dalattodaytravel.com', 'admin.ictdalat.vn'],
   },
 };

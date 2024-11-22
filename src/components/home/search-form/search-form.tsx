@@ -12,6 +12,7 @@ import { CalenderIcon } from '@/components/icons/calender';
 import Text from '@/components/ui/typography/text';
 import Button from '@/components/ui/button';
 import { Routes } from '@/config/routes';
+import Link from 'next/link';
 
 type QueryStringType = {
   location?: string;
@@ -54,28 +55,19 @@ export default function FindTripForm() {
     <form
       noValidate
       onSubmit={handleFormSubmit}
-      className="relative z-[2] w-full max-w-[450px] rounded-lg bg-white p-6 shadow-2xl sm:m-0 sm:max-w-[380px] sm:p-7 sm:pt-9 md:max-w-[400px] md:shadow-none lg:rounded-xl xl:max-w-[460px] xl:p-9 4xl:max-w-[516px] 4xl:p-12"
+      className="relative z-[2] w-full max-w-[250px] rounded-lg p-6 shadow-2xl sm:m-0 sm:max-w-[380px] sm:p-7 sm:pt-9 md:max-w-[400px] md:shadow-none lg:rounded-xl xl:max-w-[460px] xl:p-9 4xl:max-w-[516px] 4xl:p-12"
     >
       <div className="mb-3 sm:mb-0">
-        <span className="mb-2 hidden font-satisfy text-xl leading-7 text-gray-dark sm:block 4xl:text-[28px] 4xl:leading-[44px]">
+        <span className="text-white mb-2 hidden font-satisfy text-xl leading-7 text-gray-dark sm:block 4xl:text-[28px] 4xl:leading-[44px]">
           Cho thuê xe ô tô
         </span>
         <Text
           tag="h1"
-          className="leading-12 mb-2 !text-xl !font-black uppercase text-gray-dark sm:!text-[28px] sm:!leading-9  4xl:!text-4xl 4xl:!leading-[52px]"
+          className="text-white leading-12 mb-2 !text-xl !font-black uppercase text-gray-dark sm:!text-[28px] sm:!leading-9  4xl:!text-4xl 4xl:!leading-[52px]"
         >
           Thuê xe từ 5 - 29 chỗ
         </Text>
       </div>
-
-      <Button
-        type="submit"
-        className="w-full !py-[14px] text-sm !font-bold uppercase leading-6 md:!py-[17px] md:text-base lg:!rounded-xl 3xl:!py-[22px]"
-        rounded="lg"
-        size="xl"
-      >
-        0944 838 788
-      </Button>
     </form>
   );
 }

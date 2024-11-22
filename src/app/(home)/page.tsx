@@ -10,13 +10,15 @@ import { sendRequest } from '@/utilsHandle/api';
 import LichTrinhComponent from '@/components/lichTrinh';
 
 export const metadata = {
-  title: 'Cho thuê xe du lịch Đà Lạt giá rẻ xe đời mới',
+  title:
+    'Cho thuê xe du lịch Đà Lạt giá rẻ xe đời mới - Du Lịch Trung Thành ĐÀ LẠT',
   description:
-    'Cho thuê xe du lịch Đà Lạt 5 7 9 16 24 29 chỗ giá rẻ xe đời mới, uy tín tại Đà Lạt, Bảo Lộc.☎️ 0944838788 cho thuê xe Đà Lạt từ 5 7 9 16 24 29 chỗ giá rẻ xe đời mới✔️✔️ giao xe ngay',
+    'Cho thuê xe du lịch Đà Lạt 4 5 7 9 16 24 29 chỗ giá rẻ xe đời mới, uy tín tại Đà Lạt, Bảo Lộc.☎️ 0918 638 068 Du Lịch Trung Thành ĐÀ LẠT thuê ô tô xe đời mới✔️✔️ giao xe ngay',
   openGraph: {
-    title: 'Cho thuê xe du lịch Đà Lạt giá rẻ xe đời mới',
+    title:
+      'Cho thuê xe du lịch Đà Lạt giá rẻ xe đời mới - Du Lịch Trung Thành ĐÀ LẠT',
     description:
-      'Cho thuê xe du lịch Đà Lạt 5 7 9 16 24 29 chỗ giá rẻ xe đời mới, uy tín tại Đà Lạt, Bảo Lộc.☎️ 0944838788 cho thuê xe Đà Lạt từ 5 7 9 16 24 29 chỗ giá rẻ xe đời mới✔️✔️ giao xe ngay',
+      'Cho thuê xe du lịch Đà Lạt 4 5 7 9 16 24 29 chỗ giá rẻ xe đời mới, uy tín tại Đà Lạt, Bảo Lộc.☎️ 0918 638 068 Du Lịch Trung Thành ĐÀ LẠT thuê ô tô xe đời mới✔️✔️ giao xe ngay',
     images: '/logo.png',
   },
 };

@@ -17,6 +17,7 @@ function NewBoatsGrid(data: any) {
           id={`new-boat-${index}`}
           slides={item.image}
           title={item.name}
+          description={item.description}
           slug={item.slug}
           price={item.price}
         />

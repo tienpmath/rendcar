@@ -32,6 +32,7 @@ export type ListingItemTypes = {
 export type ListingItemNewsTypes = {
   slides: string;
   title: string;
+  description: string;
   slug: string;
   [key: string]: any;
 };

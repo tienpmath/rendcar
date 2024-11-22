@@ -35,7 +35,7 @@ export default function Footer({ className }: { className?: string }) {
             </Link>
 
             <h3 className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Du Lịch Thành Trung ĐÀ LẠT
+              Du Lịch Trung Thành ĐÀ LẠT
             </h3>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

@@ -59,15 +59,17 @@ export default function Menu() {
           <Fragment key={item.id}>
             {item.dropdownItems ? (
               <li key={item.id} className="group/parent relative">
-                <a
-                  href="#"
+                <Link
                   className="px-5 flex items-center text-white transition"
+                  href="href"
                 >
+                  {' '}
                   {item.label}
                   <span className="z-[1] transition-transform duration-200 ms-1">
                     <ChevronDownIcon className="w-4 h-4" />
                   </span>
-                </a>
+                </Link>
+
                 <ul className="invisible absolute top-[130%] mt-2 py-2 w-64 rounded-md bg-white opacity-0 transition-all group-hover/parent:visible group-hover/parent:top-full group-hover/parent:opacity-100 end-5 shadow-card focus:outline-none">
                   {item.dropdownItems.map((dropdownItem) => {
                     return (
@@ -93,7 +95,6 @@ export default function Menu() {
           </Fragment>
         ))}
       </ul>
-      <ProfileMenu className="hidden md:block" />
     </nav>
   );
 }
