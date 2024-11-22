@@ -84,7 +84,7 @@ export default function ListingNewsCard({
         </div>
         <Link href="#">
           <div className="content pt-3">
-            <h2 className="text-ellipsis text-gray-dark 2xl:mb-1.5 font-bold">
+            <h2 className="text-lg font-medium font-bold text-blue-600 dark:text-white">
               {title}
             </h2>
             <p className="mb-3 text-gray-light xl:mb-3"> {description}</p>
