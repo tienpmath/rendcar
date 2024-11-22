@@ -89,6 +89,64 @@ export default function Footer({ className }: { className?: string }) {
             © Chuyên cung cấp dịch vụ cho thuê xe từ 5 đến 29 chỗ, chuyên
             nghiệp, giá cạnh tranh nhất tại thành phố Đà Lạt.
           </span>
+          <ul className="flex justify-center flex-wrap max-w-xl align-center gap-2 leading-8">
+            <li>
+              <a href="#" className="text-3xl text-cyan-500">
+                Thuê xe 4 chỗ Đà Lạt
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-xl text-teal-500">
+                Thuê xe 5 chỗ Đà Lạt
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-md text-red-500">
+                Thuê xe 7 chỗ Đà Lạt
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-lg text-green-500">
+                Thuê xe 9 chỗ Đà Lạt
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-sm text-orange-500">
+                Thuê xe 16 chỗ Đà Lạt
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-3xl text-cyan-500">
+                Thuê xe 24 chỗ Đà Lạt
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-md text-blue-500">
+                Thuê xe 29 chỗ Đà Lạt
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-2xl text-indigo-500">
+                Thuê xe 45 chỗ Đà Lạt
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-xl text-indigo-500">
+                Tour Săn mây Đà Lạt
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-md text-blue-500">
+                Tour Săn thăm quan nội thành Đà Lạt
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-xs text-cyan-500">
+                Tour Săn thăm quan ngoại thành Đà Lạtorts
+              </a>
+            </li>
+          </ul>
+
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <Link
               href="#"
