@@ -8,7 +8,7 @@ export const Routes = {
     home: '/',
     about: '/gioi-thieu',
     explore: '/explore',
-    pricing: '/pricing',
+    pricing: '/bang-gia',
     contact: '/contact',
     news: '/news',
     help: '/help',
