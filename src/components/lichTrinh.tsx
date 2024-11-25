@@ -33,9 +33,6 @@ const LichTrinhComponent = () => {
               <th scope="col" className="px-6 py-3">
                 XE 29 CHỖ
               </th>
-              <th scope="col" className="px-6 py-3">
-                XE 45 CHỖ
-              </th>
             </tr>
           </thead>
           <tbody>
@@ -51,7 +48,6 @@ const LichTrinhComponent = () => {
               <td className="px-6 py-4">280.000 đ</td>
               <td className="px-6 py-4">700.000 đ</td>
               <td className="px-6 py-4">1.500.000 đ</td>
-              <td className="px-6 py-4">2.200.000 đ</td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
               <td className="px-2 py-2">2</td>
@@ -65,7 +61,6 @@ const LichTrinhComponent = () => {
               <td className="px-6 py-4">1.000.000 đ</td>
               <td className="px-6 py-4">1.300.000 đ</td>
               <td className="px-6 py-4">2.500.000 đ</td>
-              <td className="px-6 py-4">4.500.000 đ</td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
               <td className="px-2 py-2">3</td>
@@ -79,7 +74,6 @@ const LichTrinhComponent = () => {
               <td className="px-6 py-4">1.100.000 đ</td>
               <td className="px-6 py-4">1.500.000 đ</td>
               <td className="px-6 py-4">3.000.000 đ</td>
-              <td className="px-6 py-4">5.000.000 đ</td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
               <td className="px-2 py-2">4</td>
@@ -93,7 +87,6 @@ const LichTrinhComponent = () => {
               <td className="px-6 py-4">600.000 đ</td>
               <td className="px-6 py-4">800.000 đ</td>
               <td className="px-6 py-4">1.500.000 đ</td>
-              <td className="px-6 py-4">2.500.000 đ</td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
               <td className="px-2 py-2">5</td>
@@ -107,7 +100,6 @@ const LichTrinhComponent = () => {
               <td className="px-6 py-4">1.600.000 đ</td>
               <td className="px-6 py-4">2.300.000 đ</td>
               <td className="px-6 py-4">4.000.000 đ</td>
-              <td className="px-6 py-4">6.000.000 đ</td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
               <td className="px-2 py-2">6</td>
@@ -121,7 +113,6 @@ const LichTrinhComponent = () => {
               <td className="px-6 py-4">1.300.000 đ</td>
               <td className="px-6 py-4">1.700.000 đ</td>
               <td className="px-6 py-4">3.000.000 đ</td>
-              <td className="px-6 py-4">5.000.000 đ</td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
               <td className="px-2 py-2">7</td>
@@ -135,7 +126,6 @@ const LichTrinhComponent = () => {
               <td className="px-6 py-4">900.000 đ</td>
               <td className="px-6 py-4">1.500.000 đ</td>
               <td className="px-6 py-4">2.500.000 đ</td>
-              <td className="px-6 py-4">4.500.000 đ</td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
               <td className="px-2 py-2">8</td>
@@ -149,7 +139,6 @@ const LichTrinhComponent = () => {
               <td className="px-6 py-4">1.600.000 đ</td>
               <td className="px-6 py-4">2.300.000 đ</td>
               <td className="px-6 py-4">4.000.000 đ</td>
-              <td className="px-6 py-4">6.000.000 đ</td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
               <td className="px-2 py-2">9</td>
@@ -163,7 +152,6 @@ const LichTrinhComponent = () => {
               <td className="px-6 py-4">4.000.000 đ</td>
               <td className="px-6 py-4">5.000.000 đ</td>
               <td className="px-6 py-4">7.500.000 đ</td>
-              <td className="px-6 py-4">9.500.000 đ</td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
               <td className="px-2 py-2">10</td>
@@ -177,7 +165,6 @@ const LichTrinhComponent = () => {
               <td className="px-6 py-4">2.500.000 đ</td>
               <td className="px-6 py-4">3.500.000 đ</td>
               <td className="px-6 py-4">5.500.000 đ</td>
-              <td className="px-6 py-4">7.500.000 đ</td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
               <td className="px-2 py-2">11</td>
@@ -191,7 +178,6 @@ const LichTrinhComponent = () => {
               <td className="px-6 py-4">1.300.000 đ</td>
               <td className="px-6 py-4">1.800.000 đ</td>
               <td className="px-6 py-4">3.500.000 đ</td>
-              <td className="px-6 py-4">5.000.000 đ</td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
               <td className="px-2 py-2">12</td>
@@ -204,7 +190,6 @@ const LichTrinhComponent = () => {
               <td className="px-6 py-4">100.000/giờ đ</td>
               <td className="px-6 py-4">100.000/giờ</td>
               <td className="px-6 py-4">100.000/giờ</td>
-              <td className="px-6 py-4">150.000/giờ</td>
               <td className="px-6 py-4">150.000/giờ</td>
             </tr>
           </tbody>

@@ -31,7 +31,7 @@ export default function Footer({ className }: { className?: string }) {
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center">
               {' '}
-              <Image src="/logo.png" alt="alt" width={150} height={100} />
+              <Image src="/logo.jpg" alt="alt" width={150} height={100} />
             </Link>
 
             <h3 className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
