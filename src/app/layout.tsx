@@ -20,9 +20,10 @@ const satisfy = Satisfy({
 });
 
 export const metadata: Metadata = {
-  title: 'Boat Rental',
-  description: 'Find your boat with the best experience.',
-  icons: ['/images/logo.svg'],
+  title: 'Cho thuê xe du lịch từ 4, 5, 7, 16, 29 chỗ Đà Lạt',
+  description:
+    'Cho thuê xe du lịch 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà Lạt. Đi tour nội ngoại thành Đà Lạt, city tour, Nha Trang, Mũi Né, Bảo Lộc',
+  icons: ['/favicon.ico'],
 };
 
 export const viewport: Viewport = {
