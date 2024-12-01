@@ -11,14 +11,14 @@ import LichTrinhComponent from '@/components/lichTrinh';
 
 export const metadata = {
   title:
-    'Cho thuê xe du lịch từ 4, 5, 7, 16, 29 chỗ Đà Lạt- Du Lịch Trung Thành ĐÀ LẠT',
+    'Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt',
   description:
-    'Cho thuê xe du lịch từ 4, 5, 7, 16, 29 chỗ Đà Lạt giá rẻ ✔️✔️ xe đời mới, uy tín tại Đà Lạt.☎️ 0918 638 068 Du Lịch Trung Thành ĐÀ LẠT thuê ô tô xe đời mới✔️✔️ giao xe ngay',
+    'Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt giá rẻ ✔️✔️ xe đời mới, uy tín tại Đà Lạt.☎️ 0918 638 068 Du Lịch Trung Thành ĐÀ LẠT thuê ô tô xe đời mới✔️✔️ giao xe ngay',
   openGraph: {
     title:
-      'Cho thuê xe du lịch từ 4, 5, 7, 16, 29 chỗ Đà Lạt - Du Lịch Trung Thành ĐÀ LẠT',
+      'Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt',
     description:
-      'Cho thuê xe du lịch từ 4, 5, 7, 16, 29 chỗ Đà Lạt ✔️✔️ giá rẻ xe đời mới, uy tín tại Đà Lạt.☎️ 0918 638 068 City tour nội ngoại thành Đà Lạt, tour săn mây, Nha Trang, Mũi Né, Bảo Lộc, Đắc Lắc ✔️✔️ giao xe ngay',
+      'Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt ✔️✔️ giá rẻ xe đời mới, uy tín tại Đà Lạt.☎️ 0918 638 068 City tour nội ngoại thành Đà Lạt, tour săn mây, Nha Trang, Mũi Né, Bảo Lộc, Đắc Lắc ✔️✔️ giao xe ngay',
     images: '/logo.jpg',
   },
 };

@@ -2,11 +2,11 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Cho thuê xe du lịch từ 4, 5, 7, 16, 29 chỗ Đà Lạt',
+    name: 'Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt',
     short_name:
-      'Cho thuê xe du lịch từ 4, 5, 7, 16, 29 chỗ Đà Lạt ☎️ 0918 638 068 - Du Lịch Trung Thành ĐÀ LẠT',
+      'Thuê xe du lịch từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà Lạt ☎️ 0918 638 068 - Tour nội thành, ngoại thành Đà Lạt',
     description:
-      'Cho thuê xe du lịch từ 4, 5, 7, 16, 29 chỗ Đà Lạt ☎️ 0918 638 068 - Du Lịch Trung Thành ĐÀ LẠT, Lâm Đồng',
+      'Thuê xe du lịch từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà Lạt ☎️ 0918 638 068 - Tour nội thành, ngoại thành Đà Lạt, Lâm Đồng',
     start_url: '/',
     display: 'standalone',
     background_color: '#fff',

@@ -64,6 +64,15 @@ export default function Footer({ className }: { className?: string }) {
                     {' '}
                     Email: Trungthanhdalattravel@gmail.com
                   </Link>
+                </li>{' '}
+                <li>
+                  <Link
+                    href="https://www.facebook.com/profile.php?id=100063954044555"
+                    className="hover:underline"
+                  >
+                    Facebook:
+                    https://www.facebook.com/profile.php?id=100063954044555
+                  </Link>
                 </li>
               </ul>
             </div>

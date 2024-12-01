@@ -20,9 +20,10 @@ const satisfy = Satisfy({
 });
 
 export const metadata: Metadata = {
-  title: 'Cho thuê xe du lịch từ 4, 5, 7, 16, 29 chỗ Đà Lạt',
+  title:
+    'Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt',
   description:
-    'Cho thuê xe du lịch 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà Lạt. Đi tour nội ngoại thành Đà Lạt, city tour, Nha Trang, Mũi Né, Bảo Lộc',
+    'Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt. Đi tour nội ngoại thành Đà Lạt, city tour, Nha Trang, Mũi Né, Bảo Lộc',
   icons: ['/favicon.ico'],
 };
 

@@ -45,7 +45,7 @@ const LichTrinhComponent = () => {
                 Đón/Tiễn Sân bay Liên Khương - Đà Lạt
               </td>
               <td className="px-6 py-4">250.000 đ</td>
-              <td className="px-6 py-4">280.000 đ</td>
+              <td className="px-6 py-4">350.000 đ</td>
               <td className="px-6 py-4">700.000 đ</td>
               <td className="px-6 py-4">1.500.000 đ</td>
             </tr>
@@ -57,8 +57,8 @@ const LichTrinhComponent = () => {
               >
                 Tham quan nội thành Đà Lạt 1 ngày
               </td>
+              <td className="px-6 py-4">800.000 đ</td>
               <td className="px-6 py-4">900.000 đ</td>
-              <td className="px-6 py-4">1.000.000 đ</td>
               <td className="px-6 py-4">1.300.000 đ</td>
               <td className="px-6 py-4">2.500.000 đ</td>
             </tr>
