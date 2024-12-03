@@ -45,55 +45,55 @@ export const destinations = [
     name: "Dinh 1 bảo đại",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/dinh1.jpg"
   },
   {
     name: "Coffe mountain view ",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/cafe.jpg"
   },
   {
     name: "Chùa linh Phước ",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/chualinhphuoc.jpg"
   },
   {
     name: "Vườn Cẩm tú cầu",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/camtucau.jpg"
   },
   {
     name: "Vườn ánh sáng ",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/vuonanhsang.jpg"
   },
   {
     name: "Đồi chè cầu đất( ngoại thành)",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/doiche.jpg"
   },
   {
     name: "Đỉnh LangBiang ",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/langbiang.jpg"
   },
   {
     name: "Thung lũng tình yêu ",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/tinhyeu1.jpg"
   },
   {
     name: "Thung lũng vàng (ngoại thành)",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/thunglungvang.jpg"
   },
   {
     name: "Chika fram  ",
@@ -105,113 +105,108 @@ export const destinations = [
     name: "Pupi fram ( nông trại cún)",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/traicun.jpg"
   },
   {
     name: "Cf thuý thuận tà nung ( ngoại thành)",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/cafethuythuan.jpg"
   },
   {
     name: "Làng cù lần ( ngoại thành)",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/langculan.jpg"
   },
   {
     name: "Cáp treo đồi robin ",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/captreo.jpg"
   },
   {
     name: "Cổng trời bali ",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/congtroi.jpg"
   },
   {
     name: "Vườn thú zoodoo ( ngoại thành + 300k)",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/vuonthu.jpg"
   },
   {
     name: "Vườn thượng uyển bay",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/thuonguyenbay.jpg"
   },
   {
     name: "Cf combilen ",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/kombi-land-da-lat.jpg"
   },
   {
     name: "Biệt thự hằng Nga",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/biet-thu-hang-nga-da-lat-1.jpg"
   },
   {
     name: "Biệt thự Trần lệ Xuân ",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/biet-dien-tran-le-xuan-tong-quan-3.jpg"
   },
-  {
-    name: "Biệt thự hằng Nga",
-    slug: "#",
-    location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
-  },  {
+    {
     name: "Rừng lá phong",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/Review-khu-du-lich-La-Phong-Da-Lat-duong-di-gia-ve.jpg"
   },
   {
     name: "Chùa linh ứng ( ngoại thành)",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/chua-linh-an-da-lat-1-1605.jpg"
   },{
     name: "Thác pouguar (ngoại thành+ 300k)",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/thac_pongour_3.jpg"
   },
   {
     name: "Khu vực tà nung ( ngoại thành ) ",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/Deo Ta Nung  - Da Lat.jpg"
   },
   {
     name: "Cao nguyên hoa dalat",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/maxresdefault.jpg"
   },
   {
     name: "Chuyện của nắng ",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/chuyencuanang.jpg"
   }, {
     name: "Trạm ký ức",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/25_tram-ky-uc-da-lat-bk-1.jpg"
   },
 
   {
     name: "Săn mây Đồi ché Cầu Đất",
     slug: "#",
     location: "Đà Lạt",
-    thumbnail: "/images/destinations/sanmay.jpg"
+    thumbnail: "/images/destinations/1.jpg"
   },
   {
     name: "Núi Lang Biang",

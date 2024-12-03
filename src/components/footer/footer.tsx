@@ -100,58 +100,91 @@ export default function Footer({ className }: { className?: string }) {
           </span>
           <ul className="flex justify-center flex-wrap max-w-xl align-center gap-2 leading-8">
             <li>
-              <a href="#" className="text-3xl text-cyan-500">
+              <a
+                href="https://dulichtrungthanhdalat.com/"
+                className="text-3xl text-cyan-500"
+              >
                 Thuê xe 4 chỗ Đà Lạt
               </a>
             </li>
             <li>
-              <a href="#" className="text-xl text-teal-500">
+              <a
+                href="https://dulichtrungthanhdalat.com/"
+                className="text-xl text-teal-500"
+              >
                 Thuê xe 5 chỗ Đà Lạt
               </a>
             </li>
             <li>
-              <a href="#" className="text-md text-red-500">
+              <a
+                href="https://dulichtrungthanhdalat.com/"
+                className="text-md text-red-500"
+              >
                 Thuê xe 7 chỗ Đà Lạt
               </a>
             </li>
             <li>
-              <a href="#" className="text-lg text-green-500">
+              <a
+                href="https://dulichtrungthanhdalat.com/"
+                className="text-lg text-green-500"
+              >
                 Thuê xe 9 chỗ Đà Lạt
               </a>
             </li>
             <li>
-              <a href="#" className="text-sm text-orange-500">
+              <a
+                href="https://dulichtrungthanhdalat.com/"
+                className="text-sm text-orange-500"
+              >
                 Thuê xe 16 chỗ Đà Lạt
               </a>
             </li>
             <li>
-              <a href="#" className="text-3xl text-cyan-500">
+              <a
+                href="https://dulichtrungthanhdalat.com/"
+                className="text-3xl text-cyan-500"
+              >
                 Thuê xe 24 chỗ Đà Lạt
               </a>
             </li>
             <li>
-              <a href="#" className="text-md text-blue-500">
+              <a
+                href="https://dulichtrungthanhdalat.com/"
+                className="text-md text-blue-500"
+              >
                 Thuê xe 29 chỗ Đà Lạt
               </a>
             </li>
             <li>
-              <a href="#" className="text-2xl text-indigo-500">
+              <a
+                href="https://dulichtrungthanhdalat.com/"
+                className="text-2xl text-indigo-500"
+              >
                 Thuê xe 45 chỗ Đà Lạt
               </a>
             </li>
             <li>
-              <a href="#" className="text-xl text-indigo-500">
+              <a
+                href="https://dulichtrungthanhdalat.com/"
+                className="text-xl text-indigo-500"
+              >
                 Tour Săn mây Đà Lạt
               </a>
             </li>
             <li>
-              <a href="#" className="text-md text-blue-500">
+              <a
+                href="https://dulichtrungthanhdalat.com/"
+                className="text-md text-blue-500"
+              >
                 Tour Săn thăm quan nội thành Đà Lạt
               </a>
             </li>
             <li>
-              <a href="#" className="text-xs text-cyan-500">
-                Tour Săn thăm quan ngoại thành Đà Lạtorts
+              <a
+                href="https://dulichtrungthanhdalat.com/"
+                className="text-xs text-cyan-500"
+              >
+                Tour Săn thăm quan ngoại thành Đà Lạt
               </a>
             </li>
           </ul>
@@ -246,7 +279,9 @@ export default function Footer({ className }: { className?: string }) {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="sr-only">Dribbble account</span>
+              <span className="sr-only">
+                Chuyên thuê xe du lịch 7 chỗ, 16 chỗ Đà Lạt
+              </span>
             </Link>
           </div>
         </div>
